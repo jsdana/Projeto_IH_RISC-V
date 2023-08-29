@@ -1,0 +1,99 @@
+vlib work
+vdel -all -lib work
+vlib work
+vlog -f compile_verilog
+vsim -gui -L altera_mf_ver work.tb_top
+
+add wave -position end sim:/tb_top/riscV/clk
+add wave -position end sim:/tb_top/riscV/dp/Reg_Stall
+add wave -position end sim:/tb_top/riscV/dp/PcSel
+add wave -position end sim:/tb_top/riscV/opcode
+add wave -position end sim:/tb_top/riscV/JalSel
+add wave -position end sim:/tb_top/riscV/Operation
+add wave -position end sim:/tb_top/riscV/dp/A.Curr_Pc
+add wave -position end sim:/tb_top/riscV/dp/A.Curr_Instr
+add wave -position end sim:/tb_top/riscV/dp/B.ALUSrc
+add wave -position end sim:/tb_top/riscV/dp/B.MemtoReg
+add wave -position end sim:/tb_top/riscV/dp/B.RegWrite
+add wave -position end sim:/tb_top/riscV/dp/B.MemRead
+add wave -position end sim:/tb_top/riscV/dp/B.MemWrite
+add wave -position end sim:/tb_top/riscV/dp/B.ALUOp
+add wave -position end sim:/tb_top/riscV/dp/B.Branch
+add wave -position end sim:/tb_top/riscV/dp/B.JalSel
+add wave -position end sim:/tb_top/riscV/dp/B.JalrSel
+add wave -position end sim:/tb_top/riscV/dp/B.Curr_Pc
+add wave -position end sim:/tb_top/riscV/dp/B.RD_One
+add wave -position end sim:/tb_top/riscV/dp/B.RD_Two
+add wave -position end sim:/tb_top/riscV/dp/B.RS_One
+add wave -position end sim:/tb_top/riscV/dp/B.RS_Two
+add wave -position end sim:/tb_top/riscV/dp/B.rd
+add wave -position end sim:/tb_top/riscV/dp/B.ImmG
+add wave -position end sim:/tb_top/riscV/dp/B.func3
+add wave -position end sim:/tb_top/riscV/dp/B.func7
+add wave -position end sim:/tb_top/riscV/dp/B.Curr_Instr
+add wave -position end sim:/tb_top/riscV/dp/FAmux_Result
+add wave -position end sim:/tb_top/riscV/dp/FBmux_Result
+add wave -position end sim:/tb_top/riscV/dp/PC_B
+add wave -position end sim:/tb_top/riscV/dp/SrcA
+add wave -position end sim:/tb_top/riscV/dp/SrcB
+add wave -position end sim:/tb_top/riscV/dp/ALU_CC
+add wave -position end sim:/tb_top/riscV/dp/ALUResult
+add wave -position end sim:/tb_top/riscV/dp/C.RegWrite
+add wave -position end sim:/tb_top/riscV/dp/C.MemtoReg
+add wave -position end sim:/tb_top/riscV/dp/C.MemRead
+add wave -position end sim:/tb_top/riscV/dp/C.MemWrite
+add wave -position end sim:/tb_top/riscV/dp/C.Pc_Imm
+add wave -position end sim:/tb_top/riscV/dp/C.Pc_Four
+add wave -position end sim:/tb_top/riscV/dp/C.Imm_Out
+add wave -position end sim:/tb_top/riscV/dp/C.Alu_Result
+add wave -position end sim:/tb_top/riscV/dp/C.RD_Two
+add wave -position end sim:/tb_top/riscV/dp/C.rd
+add wave -position end sim:/tb_top/riscV/dp/C.func3
+add wave -position end sim:/tb_top/riscV/dp/C.func7
+add wave -position end sim:/tb_top/riscV/dp/C.Curr_Instr
+add wave -position end sim:/tb_top/riscV/dp/WrmuxSrc
+
+
+radix signal sim:/tb_top/riscV/dp/A.Curr_Pc decimal
+radix signal sim:/tb_top/riscV/dp/B.Curr_Pc decimal
+radix signal sim:/tb_top/riscV/dp/instr_mem/rd hexadecimal
+radix signal sim:/tb_top/riscV/dp/PC unsigned
+radix signal sim:/tb_top/riscV/dp/Instr hexadecimal
+radix signal sim:/tb_top/riscV/dp/B.RS_One unsigned
+radix signal sim:/tb_top/riscV/dp/B.RS_Two unsigned
+radix signal sim:/tb_top/riscV/dp/B.rd unsigned
+radix signal sim:/tb_top/riscV/WB_Data hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[31] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[30] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[29] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[28] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[27] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[26] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[25] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[24] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[23] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[22] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[21] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[20] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[19] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[18] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[17] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[16] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[15] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[14] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[13] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[12] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[11] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[10] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[9] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[8] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[7] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[6] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[5] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[4] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[3] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[2] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[1] hexadecimal
+radix signal sim:/tb_top/riscV/dp/rf/register_file[0] hexadecimal
+
+run -all

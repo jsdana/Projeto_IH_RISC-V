@@ -1,0 +1,151 @@
+/home/leovyni/riscv/design/RISC_V.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/RISC_V.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} /home/leovyni/riscv/design/mux4.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} /home/leovyni/riscv/tb_top.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/tb_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} /home/leovyni/riscv/design/Memoria32Data.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/Memoria32Data.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria32Data
+
+Top level modules:
+	Memoria32Data
+
+} {} {}} /home/leovyni/riscv/design/instructionmemory.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/instructionmemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instructionmemory
+
+Top level modules:
+	instructionmemory
+
+} {} {}} /home/leovyni/riscv/design/datamemory.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/datamemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datamemory
+
+Top level modules:
+	datamemory
+
+} {} {}} /home/leovyni/riscv/design/imm_Gen.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/imm_Gen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imm_Gen
+
+Top level modules:
+	imm_Gen
+
+} {} {}} /home/leovyni/riscv/design/RegPack.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/RegPack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package Pipe_Buf_Reg_PKG
+
+Top level modules:
+	--none--
+
+} {} {}} /home/leovyni/riscv/design/BranchUnit.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/BranchUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BranchUnit
+
+Top level modules:
+	BranchUnit
+
+} {} {}} /home/leovyni/riscv/design/ALUController.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
+} {} {}} /home/leovyni/riscv/design/RegFile.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/RegFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} /home/leovyni/riscv/design/Memoria32.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} /home/leovyni/riscv/design/Datapath.sv {2 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: /home/leovyni/riscv/design/Datapath.sv(3): (vlog-13233) Design unit "Datapath_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package Datapath_sv_unit
+-- Importing package Pipe_Buf_Reg_PKG
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} /home/leovyni/riscv/design/ramOnChipData.v {1 {vlog -work work -stats=none /home/leovyni/riscv/design/ramOnChipData.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ramOnChipData
+
+Top level modules:
+	ramOnChipData
+
+} {} {}} /home/leovyni/riscv/design/adder.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/leovyni/riscv/design/HazardDetection.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/HazardDetection.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HazardDetection
+
+Top level modules:
+	HazardDetection
+
+} {} {}} /home/leovyni/riscv/design/ramOnChip32.v {1 {vlog -work work -stats=none /home/leovyni/riscv/design/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} /home/leovyni/riscv/design/ForwardingUnit.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/ForwardingUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} /home/leovyni/riscv/design/flopr.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/flopr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} /home/leovyni/riscv/design/mux2.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} /home/leovyni/riscv/design/Controller.sv {1 {vlog -work work -sv -stats=none /home/leovyni/riscv/design/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}}

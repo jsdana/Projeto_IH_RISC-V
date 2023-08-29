@@ -40,7 +40,7 @@ module riscv #(
   );
 
   haltUnit hlt(
-      clk,
+      clk
       opcode,
       opcode2
 

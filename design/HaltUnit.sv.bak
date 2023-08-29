@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+
+module haltUnit (
+
+	input logic halt,
+        input logic [31:0] opcode,
+        output logic [31:0] opcodeexit
+    
+);
+
+	reg haltReg;
+	initial haltReg = 0; 
+        
+        always(halt) haltReg = 1;
+
+	assign opcodeexit = (haltReg) ? 32'b0 : opcode;
+
+endmodule

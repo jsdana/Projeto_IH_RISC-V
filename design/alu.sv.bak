@@ -37,7 +37,7 @@ module alu#(
 		    else if(SrcA[31] == 0 && SrcB[31] == 1)
 			ALUResult = 1;
 		    else
-		    ALUResult = (SrcA >= SrcB) ? 1 : 0;
+		    ALUResult = (SrcA > SrcB) ? 1 : 0;
 	    4'b1100:        // SLT and BLT
                     if(SrcA[31] == 1 && SrcB[31] == 0)
 			ALUResult = 1;

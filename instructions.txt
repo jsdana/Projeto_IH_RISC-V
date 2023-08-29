@@ -1,0 +1,10 @@
+lw x1,0(x0)
+lw x2,4(x0)
+jal x3,16
+add x1,x2,x2
+sub x2,x1,x2
+bge x1,x2,8
+add x1,x1,x1
+add x1,x1,x1
+add x1,x1,x2
+jalr x0,x3,0

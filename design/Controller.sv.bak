@@ -37,7 +37,7 @@ module Controller (
   assign RegWrite = (Opcode == R_TYPE || Opcode == LW || Opcode == RI_TYPE || Opcode == LUI || Opcode == JAL || Opcode == JALr); //|| Opcode == JAL
   assign MemRead = (Opcode == LW);
   assign MemWrite = (Opcode == SW);
-  assign ALUOp[0] = (Opcode == BR || Opcode == LUI || Opcode == JAL || Opcode == JALr);
+  assign ALUOp[0] = (Opcode == BR || Opcode == LUI);
   assign ALUOp[1] = (Opcode == R_TYPE || Opcode == RI_TYPE || Opcode == LUI);
   assign Branch = (Opcode == BR || Opcode == JAL || Opcode == JALr);
   assign JalSel = (Opcode == JAL || Opcode == JALr);
