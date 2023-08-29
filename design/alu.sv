@@ -50,7 +50,7 @@ module alu#(
 	    4'b1111:	    //SRLI
 		    ALUResult = SrcA >> SrcB[4:0];
 	    4'b1011:       //LUI
-		    ALUResult = SrcB;
+		    ALUResult = {SrcB, 12'b0};
             4'b0011:       // Jal/jalr
 		    ALUResult = SrcA;
 		
